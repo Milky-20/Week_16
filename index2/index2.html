@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form class="form">
+    <h1>Калькулятор стоимости Авто</h1>
+    <fieldset>
+        <p>Аукцион</p>
+        <select class="auction">
+            <option value="10000000">MERCEDES</option>
+            <option value="5000000">KIA</option>
+            <option value="8000000">BMW</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <p>Типы услуг</p>
+        <div>
+            <label for="service1">
+                <input class="inputServices" type="radio" id="service1" value="1000">
+                <span>Мойка</span>
+            </label>
+            <label for="service2">
+                <input class="inputServices" type="radio" id="service2" value="3000">
+                <span>Покраска</span>
+            </label>
+        </div>
+    </fieldset>
+    <div>
+        <button type="submit">Расчитать</button>
+        <p class="result"></p>
+    </div>
+</form>
+    <script src="./index2.js"></script>
+</body>
+</html>
